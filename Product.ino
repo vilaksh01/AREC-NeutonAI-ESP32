@@ -125,7 +125,7 @@ void loop()
     Serial.println("Unknown");
   }
 
-
+  Serial.println("---------------------------------------------------");
   app_nn_free();
   delay(2000);
 
